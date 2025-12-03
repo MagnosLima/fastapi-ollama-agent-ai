@@ -29,10 +29,15 @@ Verifique:
 
 Instale via site oficial: https://ollama.com/
 
+Baixar o modelo utilizado no projeto:
+
+``` bash
+ollama pull qwen3:4b
+```
 Após instalar:
-
-    ollama run qwen3:4b
-
+``` bash
+ollama run qwen3:4b
+```
 ## Como configurar e rodar o projeto
 
 ### 1. Clone o repositório
