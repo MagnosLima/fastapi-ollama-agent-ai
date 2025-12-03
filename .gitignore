@@ -1,0 +1,23 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+
+# Cache / build
+*.log
+.cache/
+
+# Ollama
+ollama/
+*.bin
