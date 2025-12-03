@@ -52,6 +52,11 @@ Linux / Mac:
     python -m venv venv
     source venv/bin/activate
 
+Git Bash:
+
+    python -m venv venv
+    source venv/Scripts/activate
+
 ### 3. Instale as dependências
 
     pip install -r requirements.txt
