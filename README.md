@@ -60,14 +60,8 @@ Linux / Mac:
 
 Crie um arquivo `.env` com:
 
-    APP_ENV=local
-    APP_DEBUG=true
-
     LLM_MODEL=qwen3:4b
     LLM_ENDPOINT=http://localhost:11434
-
-    AGENT_NAME=FastAPIOllamaAgent
-    LLM_TIMEOUT=40
 
 ### 5. Inicie o Ollama
 
