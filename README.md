@@ -37,8 +37,8 @@ Após instalar:
 
 ### 1. Clone o repositório
 
-    git clone https://github.com/SEU_USUARIO/SEU_REPO.git
-    cd SEU_REPO
+    git clone https://github.com/MagnosLima/fastapi-ollama-agent-ai.git
+    cd fastapi-ollama-agent-ai
 
 ### 2. Crie o ambiente virtual
 
