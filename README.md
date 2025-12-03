@@ -96,21 +96,29 @@ Resposta:
 
 ## Estrutura do projeto
 
-    app/
-     ├── agent/
-     ├── core/
-     ├── schemas/
-     └── main.py
-    .env
-    .env.example
-    .gitignore
-    requirements.txt
+```text
+app/
+ ├── agent/
+ │   └── agent.py
+ ├── core/
+ │   └── config.py
+ ├── schemas/
+ │   └── chat.py
+ └── main.py
+.env
+.env.example
+.gitignore
+README.md
+requirements.txt
+```
 
 ## Versionamento
 
 O `.gitignore` garante que arquivos sensíveis e ambientes virtuais não
 sejam versionados.
 
-## Considerações finais
+------------------------------------------------------------------------
 
-Projeto criado para atender o case técnico com Strands Agents e Ollama.
+## 👨‍💻 Autor
+
+[Magnos Lima ](https://github.com/MagnosLima)
