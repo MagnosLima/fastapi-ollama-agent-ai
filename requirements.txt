@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+python-dotenv
+strands-agents
+strands-agents-tools
+ollama
+httpx
+pydantic
