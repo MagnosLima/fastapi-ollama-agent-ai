@@ -6,3 +6,4 @@ strands-agents-tools
 ollama
 httpx
 pydantic
+pydantic-settings
