@@ -1,8 +1,12 @@
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    llm_model: str = "qwen3:4b"
-    llm_endpoint: str = "http://localhost:11434"
+    llm_model: str
+    llm_endpoint: str
+    app_env: str | None = None
+    app_debug: bool | None = None
+    agent_name: str | None = None
+    llm_timeout: int | None = None
 
     class Config:
         env_file = ".env"
